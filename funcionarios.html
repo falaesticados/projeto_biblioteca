@@ -93,14 +93,14 @@
                                   <li class="breadcrumb-item"><a
                                 style="text-decoration: none !important; color: rgb(99, 99, 99); font-size: 12px; margin-left: 2%;"
                                 href="Alunos.html">&nbsp; Funcionarios</a></li>
+                            </div>
                         </div>
-                    </div>
                     <div id="lupa-grid">
-                        <button type="button" class="button blue mobile" id="cadastrarAluno">Cadastrar novo Aluno</button>
+                        <button type="button" class="button blue mobile" id="cadastrarFuncionario">Cadastrar novo Funcionário</button>
                     </div>
                     <br>
 
-                    <table id="TableAluno" class="records">
+                    <table id="TableFuncionário" class="records">
                         <thead>
                             <tr>
                                 <th>Nome</th>
@@ -116,6 +116,51 @@
 
                         </tbody>
                     </table>
+                    <div class="modal" id="modal2">
+                        <div class="modal-content">
+                            <header class="modal-header">
+                                <h2>Excluir Funcionários</h2>
+                                <span class="modal-close" id="moda-close2">&#10006;</span>
+                            </header>
+                            <div id="avisoDelete">
+                            </div>
+                            <footer class="modal-footer">
+                                <button id="apagar" class="button-red">Apagar</button>
+                                <button id="cancelar2" class="button-blue">Cancelar</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="modal" id="modal">
+                        <div class="modal-content">
+                            <header class="modal-header">
+                                <h2>Novo Funcionário</h2>
+                                <span class="modal-close" id="modalClose">&#10006</span>
+                            </header>
+                            <form id="form" class="modal-form">
+                                <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Funcionário" required>
+                                <input type="number" id="matricula" class="modal-field" placeholder="Matricula do Funcionário" required>
+                                <input type="text" id="telefone" class="modal-field" placeholder="telefone do Funcionário" required>
+                                <input type="text" id="celular" class="modal-field" placeholder="Celular do Funcionário" required>
+                                <input type="email" id="email" class="modal-field" placeholder="E-Mail do Funcionário" required>
+                                <input type="text" id="rua" class="modal-field" placeholder="Endereço do Funcionário" required>
+                                <input type="number" id="numero" data-index="new" class="modal-field" placeholder="numero da REsidencia" required>
+                                <input type="text" id="complemento" class="modal-field" placeholder="complemento Endereço" required>
+                                <input type="text" id="cidade" class="modal-field" placeholder="cidade do Funcionário" required>
+                                <input type="text" id="estado" class="modal-field" placeholder="Estado do Funcionário" required>
+                                <input type="text" id="Cpf" data-index="new" class="modal-field" placeholder="cpf do Funcionário" required>
+                                <input type="text" id="Funcao" class="modal-field" placeholder="função do Funcionário" required>
+
+                            </form>
+                            <footer class="modal-footer">
+                                    <button id="salvar" class="button green">salvar</button>
+                                    <button id="cancelar" class="button blue">cancelar</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
