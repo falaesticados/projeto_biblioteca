@@ -9,3 +9,25 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    width: 100%;
+    height: 100%;
+    background: #066b7c;
+    overflow: hidden;
+}
+.wrapper{
+    width: 400px;
+    height: 340px;
+    background: whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0 6px 4px -4px rgba(0,0,0,0.25);
+}
+.wrapper .title{
+    line-height: 80px;
+    background: gray;
+    padding-left: 20px ;
+    border-radius: 7px 7px 0 0;
+    font-size: 25px;
+    color: rgb(243,241,241);
+    font-weight: 600;
+}
