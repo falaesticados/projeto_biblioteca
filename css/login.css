@@ -86,13 +86,11 @@ justify-content: center;
     text-decoration: underline;
 }
 .wrapper form .button input{
-    color: blue;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 500;
     padding-left: 0;
     background: gray;
     border: 1px solid lightblue;
     cursor: pointer;
-
-
 }
